@@ -21,15 +21,11 @@ Follow these step-by-step instructions to deploy the DevOps 3-Tier Project:
 1. Clone the project repository: https://github.com/LondheShubham153/wanderlust.git
 2. Install Node.js using NVM:
 
-bash
-Copy code
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 nvm install 21
 
 3. Set up MongoDB Database:
 
-bash
-Copy code
 sudo apt-get install gnupg curl
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
@@ -38,8 +34,7 @@ sudo apt-get install -y mongodb-org
 sudo systemctl start mongod
 Navigate to the backend directory and install dependencies:
 
-4. Copy code
-   cd backend
+4. cd backend
    npm i
 
 5. Set up your MongoDB Database
