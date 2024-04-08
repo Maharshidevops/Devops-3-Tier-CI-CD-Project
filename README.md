@@ -5,15 +5,15 @@ Welcome to the DevOps 3-Tier Project Deployment Guide! This guide will walk you 
 Overview
 This project involves deploying a 3-tier application consisting of a frontend, backend, and MongoDB database. Below are the main components and steps involved:
 
-Cloning the Project: Clone the project repository to your local machine.
-Installing Node.js with NVM: Install Node.js using Node Version Manager (NVM).
-Setting up MongoDB Database: Install and configure MongoDB for your project.
-Navigating to Backend Directory: Move to the backend directory to install dependencies and start the backend server.
-Installing Required Dependencies: Install necessary dependencies for the backend.
-Importing Sample Data: Populate the MongoDB database with sample data.
-Starting the Backend Server: Start the backend server.
-Setting up the Frontend: Move to the frontend directory, install dependencies, configure environment variables, and launch the frontend development server.
-Allowing Necessary Ports: Configure inbound traffic rules on AWS to allow necessary ports.
+-Cloning the Project: Clone the project repository to your local machine.
+-Installing Node.js with NVM: Install Node.js using Node Version Manager (NVM).
+-Setting up MongoDB Database: Install and configure MongoDB for your project.
+-Navigating to Backend Directory: Move to the backend directory to install dependencies and start the backend server.
+-Installing Required Dependencies: Install necessary dependencies for the backend.
+-Importing Sample Data: Populate the MongoDB database with sample data.
+-Starting the Backend Server: Start the backend server.
+-Setting up the Frontend: Move to the frontend directory, install dependencies, configure environment variables, and launch the frontend development server.
+-Allowing Necessary Ports: Configure inbound traffic rules on AWS to allow necessary ports.
 
 Installation Instructions
 Follow these step-by-step instructions to deploy the DevOps 3-Tier Project:
